@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>注册</title>
+    <!-- 引入Semantic-ui -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    
+
+
+<style type="text/css">
+    body {
+      background-color: #DADADA;
+    }
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+    </style>
+    
+</head>
+<body>
+    <nav class="ui inverted attached segment main-mini m-shadow-small">
+        <div class="ui container">
+          <div class="ui inverted secondary stackable menu">
+            <h2 class="ui blue header item">新闻</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>关于</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>更新</a>
+            <div class="right m-item item m-mobile-hide">
+              <div class="ui inverted input transparent">
+                <input type="text" placeholder="搜索...">
+                <i class="search link icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 手机按钮开关
+        <a href="" class="ui black icon button m-top-right m-mobile-show menu toggle">
+          <i class="bars icon"></i>
+        </a> -->
+    </nav> 
+    
+    
+
+
+    <!-- 登录 -->
+    <div class="ui middle aligned center aligned grid padding-loging">
+        <div class="column">
+          <h2 class="ui teal image header">
+            
+            <div class="content">
+              登录账号
+            </div>
+          </h2>
+          <form class="ui large form" action="login.php" method="POST"name="">
+
+            <div class="ui stacked segment">
+
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" name="loginname" placeholder="用户" >
+                    </div>
+                </div>
+
+              
+
+              <div class="field">
+                <div class="ui left icon input">
+                  <i class="lock icon"></i>
+                  <input type="password"  name="loginpassword" placeholder="密码">
+                </div>
+              </div>
+
+              
+
+
+              
+              <input class="ui fluid large pink basic  button" value="登录"  type="submit" name="submit"</input>
+              
+            </div>
+      
+          <div class="ui error message"></div>
+      
+        </form>
+      
+        <div class="ui message">
+            没有账户？ <a href="register.php#">注册</a>
+          </div>
+        </div>
+      </div>
+
+    
+    <br>
+    <footer class="ui inverted segment vertical m-massive ">
+
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+              <div class="three wide column">
+                <div class="ui inverted link item">
+                  <div class="item">
+                    <img src="../static/img/5a4a272dd42a283428c0f8cf5ab5c9ea14cebfa7.gif" class="ui rounded image" alt="" style="width: 80px;">
+                  </div>
+                </div>
+              </div>
+    
+              <div class="three wide column m-all-textcss">
+                  <h4 class="ui inverted header ">最新博客</h4>
+                  <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                  </div>
+              </div>
+    
+              <div class="three wide column m-all-textcss">
+                <h4 class="ui inverted header">最新博客</h4>
+                  <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                  </div>
+              </div>
+    
+              <div class="seven wide column m-all-textcss">
+                <h4 class="ui inverted header ">最新博客</h4>
+                <p>这是我第一次做！！！</p>
+              </div>
+            </div>
+    
+            <div class="ui inverted section divider">
+              <p class="m-p-text-thin m-text-spaced m-text-lined m-opacity">GY搬运站 最终版权归原网站所有。 本网站在翻译过程中若有任何侵权行为，请联系xxxxxxxxxx@qq.com，我们定将及时处理。</p>
+            </div>
+        
+        </div>
+     </footer>
+        
+    
+    </body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="../static/js/main.js"></script>
+
+<!-- 引入Semantic-ui -->
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+ 
+</html>
+
